@@ -16,11 +16,11 @@ def prompt_user
 end
 
 def get_user_input
- loop do 
+ loop do
     puts "h"
     answer = gets.chomp
     break if answer = "s"
-  end 
+  end
    puts "exit"
 end
 
