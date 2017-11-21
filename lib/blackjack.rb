@@ -24,12 +24,11 @@ def end_game (card_total)
 end
 
 def initial_round
-   card_total = deal_card + deal_card
-  return card_total
-end
-  def display_card_total (card_total)
-end 
-end 
+    sum = deal_card + deal_card
+    display_card_total(sum)
+   return sum
+  end		 
+
 def hit?
   # code hit? here
 end
@@ -41,5 +40,3 @@ end
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
-
-
