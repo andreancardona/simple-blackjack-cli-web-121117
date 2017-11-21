@@ -23,11 +23,11 @@ def end_game (card_total)
    puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
-def initial_round
-  card_total = deal_card + deal_card
-  return card_total
+def initial_round (num)
+   num = deal_card + deal_card
+  return num
 end
-  def display_card_total (card_total)
+  def display_card_total (num)
   puts "Your cards add up to #{card_total}"
 end
 end
