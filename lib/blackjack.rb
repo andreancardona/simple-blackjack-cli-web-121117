@@ -16,7 +16,12 @@ def prompt_user
 end
 
 def get_user_input
-  # code #get_user_input here
+ loop do 
+    puts "h"
+    answer = gets.chomp
+    break if answer = "s"
+  end 
+   puts "exit"
 end
 
 def end_game
