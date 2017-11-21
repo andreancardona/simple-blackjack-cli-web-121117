@@ -27,7 +27,9 @@ def initial_round
    card_total = deal_card + deal_card
   return card_total
 end
-
+  def display_card_total (card_total)
+end 
+end 
 def hit?
   # code hit? here
 end
@@ -40,14 +42,4 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
-    welcome
-    hand=initial_round
-    until hand>21 do
-    hand=hit?(hand)
-    display_card_total(hand)
-    end
-      end_game(hand)
-    end		
-end
 
