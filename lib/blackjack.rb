@@ -28,7 +28,7 @@ def initial_round (num)
   return num
 end
   def display_card_total (num)
-  puts "Your cards add up to #{card_total}"
+  puts "Your cards add up to #{num}"
 end
 end
 
